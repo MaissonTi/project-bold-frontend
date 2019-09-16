@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import { TweenMax, Sine } from 'gsap/all';
-
+import CSSPlugin from 'gsap/CSSPlugin';
 import { Conteiner } from './styles';
+
+const C = CSSPlugin;
 
 export default function Fotos() {
   useEffect(() => {
